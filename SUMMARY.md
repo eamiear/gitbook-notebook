@@ -12,5 +12,8 @@ This is the summary of my book.
     * [A1](SECT-1/A1.md)
     * [A2](SECT-1/A2.md)
 * SECT-3
-
+    * [A1](SECT-1/A1.md)
+    * [A2](SECT-1/A2.md)
 * SECT-4
+    * [A1](SECT-1/A1.md)
+    * [A2](SECT-1/A2.md)
