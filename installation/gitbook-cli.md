@@ -1,6 +1,6 @@
 # 创建一本书
 
-## 初始化
+### 初始化
 
 初始化一本书
 
@@ -12,20 +12,27 @@
 
 在当前目录初始化一本书或创建一个空目录并初始化
 
-## 本地预览
+### 本地预览
 
 ```
  gitbook serve
 
- gitbook server ./{book_name}
+ gitbook serve ./{book_name}
 ```
 
-实时预览
+本地文件修改后，实时预览文件变化
 
-## 发布电子书
+### 发布电子书
 
 ```
 gitbook build
 
-gitbook build ./{book_name} ./{output_folder}
+# 将书籍构建结果存放到{destination}目录下
+gitbook build {resource} {destination}
+
+gitbok build ./ --log=debug --debug
 ```
+
+书籍编写完后，可构建生成静态站点。
+
+--log=debug --debug 进入调试模式，输出更友好的堆栈错误信息
