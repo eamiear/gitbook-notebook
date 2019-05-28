@@ -1,0 +1,44 @@
+{
+    "title": "GitBook NoteBook",
+    "description": "GitBook 使用记录册",
+    "author": "eamiear",
+    "output.name": "GitBook-NoteBook",
+    "language": "zh-hans",
+    "gitbook": "3.2.2",
+    "root": ".",
+    "theme-default": {
+        "showLevel": true
+    },
+    "plugins": [ 
+        "-search",
+        "search-pro",
+        "advanced-emoji",
+        "emphasize",
+        "include-codeblock",
+        "ace",
+        "splitter",
+        "favicon",
+        "expandable-chapters-small",
+        "sitemap-general",
+        "tbfed-pagefooter"
+    ],
+    "pluginsConfig": {
+        "tbfed-pagefooter": {
+            "copyright":"Copyright © eamiear",
+            "modify_label": "该文件修订时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "sitemap-general": {
+            "prefix": "https://eamiear.gitbooks.io"
+        },
+        "favicon": {
+            "shortcut": "assets/images/favicon.ico",
+            "bookmark": "assets/images/favicon.ico",
+            "appleTouch": "assets/images/apple-touch-icon.png"
+        },
+        "include-codeblock": {
+            "template": "ace",
+            "theme": "monokai"
+        }
+    }
+}
