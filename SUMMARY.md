@@ -14,6 +14,7 @@
     * [配置](content/configuration.md)
     * [术语汇编](content/glossary.md)
     * [多语言](content/multi-language.md)
+    * [封面](content/cover.md)
 
 * [输出电子书](output/README.md)
     * [网页站点](output/website.md)
