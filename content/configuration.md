@@ -1,6 +1,6 @@
 # 配置
 
-GitBook 通过 `book.json` 文件进行自定义配置。
+GitBook 通过 `book.json` 文件进行图书配置。
 
 ### 常规配置
 
@@ -25,7 +25,7 @@ GitBook 通过 `book.json` 文件进行自定义配置。
 
 ### 结构
 
-除根(root)变量外，可以指定`Readme`, `Summary`， `Glossary`, `languages`的文件名称，以修改GitBook默认文件名。这些文件需要放在图书根目录下。
+除根 (`root`) 变量外，可以指定`Readme`, `Summary`， `Glossary`, `languages`的文件名称，以修改 `GitBook` 默认文件名。这些文件需要放在图书根目录下。
 
 | 变量 | 描述 |
 | -------- | ----------- |
@@ -33,3 +33,18 @@ GitBook 通过 `book.json` 文件进行自定义配置。
 | `structure.summary` | Summary文件名 (默认`SUMMARY.md`) |
 | `structure.glossary` | Glossary文件名 (默认 `GLOSSARY.md`) |
 | `structure.languages` | Languages文件名 (默认 `LANGS.md`) |
+
+### PDF选项
+
+可对导出的PDF进行属性配置
+
+| 变量 | 描述 |
+| -------- | ----------- |
+| `pdf.pageNumbers` | 每页添加页数 (默认 `true`) |
+| `pdf.fontSize` | 基本的字体大小 (默认 `12`) |
+| `pdf.fontFamily` | 基本字体系列 (默认 `Arial`) |
+| `pdf.paperSize` | 纸张大小, 可选项有`'a0', 'a1', 'a2', 'a3', 'a4', 'a5', 'a6', 'b0', 'b1', 'b2', 'b3', 'b4', 'b5', 'b6', 'legal', 'letter'` (默认 `a4`) |
+| `pdf.margin.top` | 顶部边距 (默认 `56`) |
+| `pdf.margin.bottom` | 底部边距 (默认`56`) |
+| `pdf.margin.right` | 右边距 (默认 `62`) |
+| `pdf.margin.left` | 左边距 (默认 `62`) |
