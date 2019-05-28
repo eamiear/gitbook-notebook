@@ -12,3 +12,4 @@
     * [静态文件](content/static-files.md)
     * [忽略文件](content/ignore-files.md)
     * [配置](content/configuration.md)
+    * [术语汇编](content/glossary.md)
