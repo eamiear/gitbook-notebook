@@ -18,3 +18,7 @@
 * [输出电子书](output/README.md)
     * [网页站点](output/website.md)
     * [输出电子书](output/ebook.md)
+
+* [插件](plugins/README.md)
+
+* [发布](publish/README.md)
