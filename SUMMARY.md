@@ -23,3 +23,5 @@
 * [插件](plugins/README.md)
 
 * [发布](publish/README.md)
+    * [发布到GitBook](publish/gitbook.md)
+    * [发布到GitHub Pages](publish/githubpage.md)
