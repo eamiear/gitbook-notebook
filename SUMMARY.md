@@ -13,3 +13,4 @@
     * [忽略文件](content/ignore-files.md)
     * [配置](content/configuration.md)
     * [术语汇编](content/glossary.md)
+    * [多语言](content/multi-language.md)
