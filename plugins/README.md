@@ -2,6 +2,8 @@
 
 GitBook 通过插件可以附加更多能力，所有插件可以从[`https://plugins.gitbook.com/`](tps://plugins.gitbook.com/ )获取。
 
+**注意** 新版GitBook对插件系统做了调整
+
 ### 安装插件
 
 插件先在`book.json`文件中进行配置：
